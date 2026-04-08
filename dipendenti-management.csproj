@@ -108,7 +108,12 @@
     <Compile Include="Migrations\202604081711591_DipendentiTable.designer.cs">
       <DependentUpon>202604081711591_DipendentiTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202604081736574_AmministratoriTable.cs" />
+    <Compile Include="Migrations\202604081736574_AmministratoriTable.designer.cs">
+      <DependentUpon>202604081736574_AmministratoriTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Amministratore.cs" />
     <Compile Include="Models\Dipendente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -129,6 +134,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202604081711591_DipendentiTable.resx">
       <DependentUpon>202604081711591_DipendentiTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202604081736574_AmministratoriTable.resx">
+      <DependentUpon>202604081736574_AmministratoriTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
