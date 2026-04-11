@@ -18,6 +18,12 @@ namespace dipendenti_management
                 url: "{controller}/{action}/",
                 defaults: new { controller = "Default", action = "Index" }
             );
+
+            routes.MapRoute(
+                name: "Dashboard",
+                url: "{controller}/{action}/",
+                defaults: new { controller = "Default", action = "Index" }
+            );
         }
     }
 }

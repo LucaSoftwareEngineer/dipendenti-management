@@ -14,7 +14,7 @@ namespace dipendenti_management.App_Start
         {
         }
 
-        DbSet<Dipendente> dipendenti { get; set; }
-        DbSet<Amministratore> amministratori { get; set; }
+        public DbSet<Dipendente> dipendenti { get; set; }
+        public DbSet<Amministratore> amministratori { get; set; }
     }
 }
